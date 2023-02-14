@@ -10,6 +10,7 @@
       st.onclick = stop;
       rt.onclick = reset;
       function start() {
+        clearInterval(interval);    
         interval = setInterval(timer, 10);
       }
       function timer() {

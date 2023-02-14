@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+  }
+  main {
+    height: 400px;
+    width: 400px;
+    border: 1px black solid;
+    background-color: blue;
+    border-radius: 8px;
+  }
+
+  main .Header {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: whitesmoke;
+  }
+  main > .time {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main > .time > div {
+    font-size: 40px;
+    height: 50px;
+    width: 60px;
+    text-align: center;
+  }
+  main > .control {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+  main > .control > button {
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: rgb(193, 203, 0);
+    border: none;
+  }
